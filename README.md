@@ -1,5 +1,5 @@
 # Bukumark 🕮
- Bookmark manager that beautiful without fancy UI
+Bookmark manager that keep you simple with beautiful UI
 
 # Features 🕮
 
