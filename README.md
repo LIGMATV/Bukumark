@@ -9,7 +9,8 @@ Easily make an Bookmark.
 ![img](img/1_v2.png)
 
 ### 🖌 Customize
-Customize your wallpaper. yeah.
+Customize your wallpaper. yeah.  
+*[Get some beautiful wallpaper here](https://minimalistic-wallpaper.demolab.com/)*
 ![img](img/2_v2.png)
 
 ### 🗎 Import & Export Bookmarks (Recommended)
