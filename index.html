@@ -1,3 +1,5 @@
+<!-- Made by LIGMATV, ligmatv.vercel.app -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -51,12 +53,12 @@ background-size: cover;
         .hidden {
       display: none;
     }
-        /* Gaya untuk bookmark */
+
         .bookmark-container {
             display: flex;
-            flex-wrap: wrap; /* Membungkus elemen ke baris berikutnya jika tidak cukup lebar */
+            flex-wrap: wrap; 
             padding: 40px;
-            gap: 45px; /* Jarak antara bookmark */
+            gap: 45px; 
         }
 
         .bookmark {
@@ -68,13 +70,13 @@ background-size: cover;
             align-items: center;
             padding: 5px;
             border-radius: 20px;
-            width: 60px; /* Ukuran favicon */
+            width: 60px; 
             height: 60px;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
         }
 
         .favicon {
-            width: 60px; /* Ukuran favicon */
+            width: 60px; 
             height: 60px;
             border-radius: 20px;
             align-items: center;
@@ -83,7 +85,7 @@ background-size: cover;
         .bookmark-text {
             color: #00000088;
             text-align: center;
-            margin-top: 10px; /* Jarak antara favicon dan teks */
+            margin-top: 10px; 
         }
 
         #contextMenu {
@@ -104,7 +106,6 @@ background-size: cover;
             padding: 8px;
         }
 
-        
     </style>
 </head>
 <body>
@@ -121,7 +122,7 @@ background-size: cover;
   <button class="button" onclick="toggleElement('importExportSection')"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-paper" viewBox="0 0 16 16">
     <path d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267zm13 .566v5.734l-4.778-2.867zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083zM1 13.116V7.383l4.778 2.867L1 13.117Z"/>
   </svg> Import & Export Bookmarks (Recommended)</button>
-    <!-- Form untuk menambahkan bookmark -->
+    
     <form id="bookmarkForm" class="hidden">
         <p>&plus; Add Bookmark</p>
         <label for="siteName">Name of Site:</label>
@@ -132,7 +133,7 @@ background-size: cover;
         <button type="button" onclick="addBookmark()">Add Bookmark</button>
     </form><br>
 
-  <!-- Section untuk customisasi (default: ditampilkan) -->
+  
   <div id="customizeSection" class="hidden">
     <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brush" viewBox="0 0 16 16">
         <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.1 6.1 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.1 8.1 0 0 1-3.078.132 4 4 0 0 1-.562-.135 1.4 1.4 0 0 1-.466-.247.7.7 0 0 1-.204-.288.62.62 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896q.19.012.348.048c.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04M4.705 11.912a1.2 1.2 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.4 3.4 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3 3 0 0 0 .126-.75zm1.44.026c.12-.04.277-.1.458-.183a5.1 5.1 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005zm3.582-3.043.002.001h-.002z"/>
@@ -141,7 +142,7 @@ background-size: cover;
     <input type="file" id="backgroundFile" accept=".jpg, .jpeg, .png, .gif, .webp" onchange="changeBackground()"><br>
   </div>
 
-  <!-- Section untuk import/export bookmark (default: ditampilkan) -->
+  
   <div id="importExportSection" class="hidden">
     <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-paper" viewBox="0 0 16 16">
         <path d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267zm13 .566v5.734l-4.778-2.867zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083zM1 13.116V7.383l4.778 2.867L1 13.117Z"/>
@@ -152,10 +153,10 @@ background-size: cover;
     <button onclick="exportBookmarks()">Save File</button>
   </div>
 
-    <!-- Daftar bookmark -->
+    
     <div id="bookmarkList" class="bookmark-container"></div>
 
-    <!-- Menu Konteks -->
+    
     <div id="contextMenu">
         <div id="editBookmark">Edit</div>
         <div id="deleteBookmark">Delete</div>
@@ -166,7 +167,7 @@ background-size: cover;
 function toggleElement(elementId) {
       var element = document.getElementById(elementId);
       if (element) {
-        // Menyembunyikan semua elemen kecuali yang sedang ditampilkan
+
         var allElements = document.querySelectorAll('.hidden');
         allElements.forEach(function(e) {
           if (e !== element) {
@@ -174,7 +175,6 @@ function toggleElement(elementId) {
           }
         });
 
-        // Menampilkan atau menyembunyikan elemen yang diklik
         element.style.display = (element.style.display === 'none') ? 'block' : 'none';
       }
     }
@@ -195,10 +195,8 @@ function toggleElement(elementId) {
       }
     }
 
-        // Daftar untuk menyimpan bookmark
         var bookmarks = [];
 
-        // Fungsi untuk menambahkan bookmark
         function addBookmark() {
             var siteName = document.getElementById('siteName').value;
             var siteURL = document.getElementById('siteURL').value;
@@ -212,11 +210,9 @@ function toggleElement(elementId) {
 
             renderBookmarks();
 
-            // Mengosongkan formulir setelah menambahkan bookmark
             document.getElementById('bookmarkForm').reset();
         }
 
-        // Fungsi untuk merender ulang daftar bookmark
         function renderBookmarks() {
             var bookmarkList = document.getElementById('bookmarkList');
             bookmarkList.innerHTML = '';
@@ -224,55 +220,44 @@ function toggleElement(elementId) {
             bookmarks.forEach(function (bookmark, index) {
                 var bookmarkDiv = document.createElement('div');
                 bookmarkDiv.className = 'bookmark';
-                bookmarkDiv.id = `bookmark-${index}`; // Menetapkan ID unik untuk setiap bookmark
-                bookmarkDiv.setAttribute('data-index', index); // Menambahkan data-index untuk mengetahui indeks bookmark
+                bookmarkDiv.id = `bookmark-${index}`; 
+                bookmarkDiv.setAttribute('data-index', index); 
 
-                // Elemen untuk tautan (link)
                 var link = document.createElement('a');
                 link.href = bookmark.url;
-                link.target = '_blank'; // Membuka tautan di tab atau jendela baru
+                link.target = '_blank'; 
                 link.title = bookmark.name;
 
-                // Elemen untuk favicon
                 var favicon = document.createElement('img');
                 favicon.className = 'favicon';
                 favicon.src = `https://www.google.com/s2/favicons?domain=${bookmark.url}&sz=128`;
                 favicon.alt = 'Favicon';
 
-                // Elemen untuk teks
                 var linkText = document.createElement('div');
                 linkText.className = 'bookmark-text';
                 linkText.textContent = bookmark.name;
 
-                // Menambahkan elemen ke dalam tautan
                 link.appendChild(favicon);
                 link.appendChild(linkText);
 
-                // Menambahkan tautan ke dalam div bookmark
                 bookmarkDiv.appendChild(link);
 
-                // Menambahkan event listener untuk konteks menu
                 bookmarkDiv.addEventListener('contextmenu', function (event) {
                     event.preventDefault();
                     setupContextMenu(index, event.clientX, event.clientY);
                 });
 
-                // Menambahkan div bookmark ke dalam daftar bookmark
                 bookmarkList.appendChild(bookmarkDiv);
             });
         }
-        
 
-// Fungsi untuk menyiapkan menu konteks
 function setupContextMenu(index, x, y) {
     var contextMenu = document.getElementById('contextMenu');
     contextMenu.style.left = x + 'px';
     contextMenu.style.top = y + 'px';
 
-    // Membersihkan menu konteks sebelum menampilkan opsi
     contextMenu.innerHTML = '';
 
-    // Menambahkan opsi Edit
     var editOption = document.createElement('div');
     editOption.textContent = 'Edit';
     editOption.addEventListener('click', function () {
@@ -285,7 +270,6 @@ function setupContextMenu(index, x, y) {
     });
     contextMenu.appendChild(editOption);
 
-    // Menambahkan opsi Delete
     var deleteOption = document.createElement('div');
     deleteOption.textContent = 'Delete';
     deleteOption.addEventListener('click', function () {
@@ -295,7 +279,6 @@ function setupContextMenu(index, x, y) {
     });
     contextMenu.appendChild(deleteOption);
 
-    // Menambahkan event listener untuk menyembunyikan menu konteks
     window.addEventListener('click', function hideContextMenuOnOutsideClick(event) {
         if (!contextMenu.contains(event.target)) {
             hideContextMenu();
@@ -306,20 +289,16 @@ function setupContextMenu(index, x, y) {
     showContextMenu();
 }
 
-// Fungsi untuk menampilkan menu konteks
 function showContextMenu() {
     var contextMenu = document.getElementById('contextMenu');
     contextMenu.style.display = 'block';
 }
 
-// Fungsi untuk menyembunyikan menu konteks
 function hideContextMenu() {
     var contextMenu = document.getElementById('contextMenu');
     contextMenu.style.display = 'none';
 }
 
-
-        // Fungsi untuk mengekspor bookmark sebagai file JSON
         function exportBookmarks() {
             var data = JSON.stringify(bookmarks);
             var blob = new Blob([data], { type: 'application/json' });
@@ -333,7 +312,6 @@ function hideContextMenu() {
             document.body.removeChild(a);
         }
 
-        // Fungsi untuk mengimpor bookmark dari file JSON
         function importBookmarks() {
             var input = document.getElementById('importFile');
             var file = input.files[0];
