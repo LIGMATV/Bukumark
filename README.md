@@ -1,7 +1,8 @@
+![Latest Screenshot](img/pv.png) 
 # Bukumark 🕮
 Bookmark manager that keep you simple with beautiful UI  
 ⚠ Please read until end before using it. (That short)  
-![Latest Screenshot](https://image.thum.io/get/width/600/crop/600/https://bukumark.vercel.app/) 
+  
 
 # Features
 ⚠ Screenshot was latest edited in 04/01/2023.
