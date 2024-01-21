@@ -1,35 +1,43 @@
-![Latest Screenshot](img/pv.png) 
-# Bukumark 🕮
-Bookmark manager that keep you simple with beautiful UI  
-⚠ Please read until end before using it. (That short)  
+<div align="center">
   
+# Bukumark <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Books.webp" style="width:40px; height:40px;"> 
+![img](https://img.shields.io/badge/Add%20Bookmark-8C6984?style=for-the-badge)
+![img](https://img.shields.io/badge/Customize-8C6984?style=for-the-badge)
+![img](https://img.shields.io/badge/Import/Export%20NEEDED-8C6984?style=for-the-badge)  
+![img](https://img.shields.io/badge/Context%20Menu-9AB8F5?style=for-the-badge)
+![img](https://img.shields.io/badge/Favicon-9AB8F5?style=for-the-badge)  
+
+#### Bookmark manager that keep you simple with beautiful UI  
+#### ⚠ Please read until end before using it. (That short)  
+
+
+</div>
 
 # Features
-⚠ Screenshot was latest edited in 04/01/2023.
 
 ### + Add Bookmark
 Easily make an Bookmark.
-![img](img/1_v2.png)
+![img](img/1_v3.png)
 
 ### 🖌 Customize
 Customize your wallpaper. yeah.  
 *[Get some beautiful wallpaper here](https://minimalistic-wallpaper.demolab.com/)*
-![img](img/2_v2.png)
+![img](img/2_v3.png)
 
-### 🗎 Import & Export Bookmarks (Recommended)
+### 🗎 Import/Export NEEDED
 You not want your bookmarks gone yeah? So PLEASE EXPORT.
-![img](img/3_v2.png)
+![img](img/3_v3.png)
 
 # ❇ More features
 
 ### ☰ Context Menu
 Right click, Edit name or Delete.
-![img](img/4_v2.png)
+![img](img/4_v3.png)
 
 ### 🖼 Favicon
 An bookmark without icon is bored.  
 *Using https://www.google.com/s2/favicons?domain=example.com&sz=128*
-![img](img/5_v2.png)
+![img](img/5_v3.png)
 
 # [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLIGMATV%2FBukumark)
 
