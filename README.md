@@ -2,7 +2,8 @@
 
 > [!TIP]
 > ![img](https://image.thum.io/get/width/900/crop/150/https://bukumark.vercel.app/)  
-> Latest screenshot, captured by [Thum.io](https://www.thum.io/)
+> Latest screenshot, captured by [thum.io](https://www.thum.io/)  
+> This project was inspired by [Gayathty17/browzica](https://github.com/Gayathry17/browzica)
 
 ## Table of Content
 * [![img](https://img.shields.io/badge/Add%20Bookmark-8C6984?style=for-the-badge)](https://github.com/LIGMATV/Bukumark?tab=readme-ov-file#-add-bookmark)  
