@@ -6,7 +6,7 @@
 * [![img](https://img.shields.io/badge/Import/Export-8C6984?style=for-the-badge)](https://github.com/LIGMATV/Bukumark?tab=readme-ov-file#-importexport)  
 * [![img](https://img.shields.io/badge/Context%20Menu-9AB8F5?style=for-the-badge)](https://github.com/LIGMATV/Bukumark?tab=readme-ov-file#-context-menu)  
 * [![img](https://img.shields.io/badge/Favicon-9AB8F5?style=for-the-badge)](https://github.com/LIGMATV/Bukumark?tab=readme-ov-file#-favicon)  
-* [![img](https://img.shields.io/badge/PWA-9AB8F5?style=for-the-badge)](https://github.com/LIGMATV/Bukumark?tab=readme-ov-file#-pwa)
+* [![img](https://img.shields.io/badge/PWA-9AB8F5?style=for-the-badge)](https://github.com/LIGMATV/Bukumark?tab=readme-ov-file#%EF%B8%8F-pwa)
 
 #### Bookmark manager that keep you simple with beautiful UI  
 
