@@ -293,12 +293,11 @@ function changeBackground() {
 
     if (imageUrl) {
         document.body.style.backgroundImage = "url('" + imageUrl + "')";
-        // Simpan URL gambar di local storage
+
         saveBackgroundUrlToLocalStorage(imageUrl);
     }
 }
 
-// Tambahkan pemanggil fungsi untuk mengambil URL gambar saat halaman dimuat
 window.addEventListener('load', function() {
     var savedBackgroundUrl = getBackgroundUrlFromLocalStorage();
     if (savedBackgroundUrl) {
@@ -306,19 +305,13 @@ window.addEventListener('load', function() {
     }
 });
 
-// Fungsi untuk menyimpan URL gambar di local storage
 function saveBackgroundUrlToLocalStorage(url) {
     localStorage.setItem('backgroundUrl', url);
 }
 
-// Fungsi untuk mengambil URL gambar dari local storage
 function getBackgroundUrlFromLocalStorage() {
     return localStorage.getItem('backgroundUrl');
 }
-
-
-
-
 
 var bookmarks = [];
 
