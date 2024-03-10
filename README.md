@@ -1,5 +1,9 @@
 ![img](img/wordmark.svg)  
 
+> [!TIP]
+> ![img](https://image.thum.io/get/width/900/crop/150/https://bukumark.vercel.app/)  
+> Latest screenshot, captured by [Thum.io](https://www.thum.io/)
+
 ## Table of Content
 * [![img](https://img.shields.io/badge/Add%20Bookmark-8C6984?style=for-the-badge)](https://github.com/LIGMATV/Bukumark?tab=readme-ov-file#-add-bookmark)  
 * [![img](https://img.shields.io/badge/Customize-8C6984?style=for-the-badge)](https://github.com/LIGMATV/Bukumark?tab=readme-ov-file#-customize)  
@@ -9,14 +13,6 @@
 * [![img](https://img.shields.io/badge/PWA-9AB8F5?style=for-the-badge)](https://github.com/LIGMATV/Bukumark?tab=readme-ov-file#%EF%B8%8F-pwa)
 
 #### Bookmark manager that keep you simple with beautiful UI  
-
-
-
-
-
-> [!TIP]
-> ![img](https://image.thum.io/get/width/900/crop/150/https://bukumark.vercel.app/)  
-> Latest screenshot, captured by [Thum.io](https://www.thum.io/)
 
 # Features
 
