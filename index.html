@@ -69,7 +69,7 @@ html { line-height: 1.15; -webkit-text-size-adjust: 100%; } body { margin: 0; } 
         <input class="inp" type="url" id="siteURL" required>
 
         <button type="button" onclick="addBookmark()">Add Bookmark</button>
-    </form><br>
+    </form>
 
   
   <div id="customizeSection" class="hidden">
@@ -77,7 +77,8 @@ html { line-height: 1.15; -webkit-text-size-adjust: 100%; } body { margin: 0; } 
         <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.1 6.1 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.1 8.1 0 0 1-3.078.132 4 4 0 0 1-.562-.135 1.4 1.4 0 0 1-.466-.247.7.7 0 0 1-.204-.288.62.62 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896q.19.012.348.048c.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04M4.705 11.912a1.2 1.2 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.4 3.4 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3 3 0 0 0 .126-.75zm1.44.026c.12-.04.277-.1.458-.183a5.1 5.1 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005zm3.582-3.043.002.001h-.002z"/>
       </svg> Customize</p>
     <label for="backgroundFile">Choose an image file for background: &#12644;</label>
-    <input type="file" id="backgroundFile" accept=".jpg, .jpeg, .png, .gif, .webp" onchange="changeBackground()"><br><br>
+    <input type="text" id="backgroundUrl" placeholder="Enter image URL">
+    <button onclick="changeBackground()">Set Background</button>
   </div>
 
   
@@ -107,14 +108,14 @@ html { line-height: 1.15; -webkit-text-size-adjust: 100%; } body { margin: 0; } 
 * ___]  |    |   |___ |___ .|___ ___] ___]
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
-    background-color: #cbfaff;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(240)'%3E%3Cstop offset='0' stop-color='%23CBFAFF'/%3E%3Cstop offset='1' stop-color='%23916A88'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-color: #8C6984;
     background-attachment: fixed;
     background-size: cover;
     font-family: "Lato", sans-serif;
+    font-weight: 900;
     padding-left: 16px;
 }
 
@@ -122,18 +123,41 @@ h1 {
     text-align: center;
     color: #fff;
     font-size: 35px;
+    font-weight: 900;
 }
 
-.inp {
-    padding-bottom: 10px;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    padding-bottom: 5px;
+#bookmarkForm, #customizeSection, #importExportSection {
+    width: 50%;
+    padding: 15px;
+    border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.4);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+    margin-top: 15px;
+    transition: 0.2s;
 }
+
+#bookmarkForm:hover, #customizeSection:hover, #importExportSection:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inp {
+  padding: 5px;
+  outline: none;
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  transition: 0.2s;
+  border: 1px solid #c7c7c7;
+  margin: 5px;
+  font-weight: 700;
+}
+
+.inp:focus {
+  border: 1px solid #FF8DB1;
+  box-shadow: rgba(214, 3, 123, 0.3) 0px 0px 0px 3px;
+}
+
 
 .button {
     background-color: rgba(118, 118, 118, 0.4);
@@ -152,6 +176,7 @@ h1 {
     margin: 4px 2px;
     cursor: pointer;
     transition: 0.2s;
+    font-weight: 700;
 }
 
 span.ripple {
@@ -206,6 +231,7 @@ span.ripple {
     color: #00000088;
     text-align: center;
     margin-top: 10px;
+    text-shadow:  rgb(255, 255, 255) 0px 3px 8px;
 }
 
 a:link {
@@ -262,20 +288,36 @@ function toggleElement(elementId) {
 }
 
 function changeBackground() {
-    var input = document.getElementById('backgroundFile');
-    var file = input.files[0];
+    var imageUrl = document.getElementById('backgroundUrl').value;
 
-    if (file) {
-        var reader = new FileReader();
-
-        reader.onload = function(e) {
-            var imageData = e.target.result;
-            document.body.style.backgroundImage = "url('" + imageData + "')";
-        };
-
-        reader.readAsDataURL(file);
+    if (imageUrl) {
+        document.body.style.backgroundImage = "url('" + imageUrl + "')";
+        // Simpan URL gambar di local storage
+        saveBackgroundUrlToLocalStorage(imageUrl);
     }
 }
+
+// Tambahkan pemanggil fungsi untuk mengambil URL gambar saat halaman dimuat
+window.addEventListener('load', function() {
+    var savedBackgroundUrl = getBackgroundUrlFromLocalStorage();
+    if (savedBackgroundUrl) {
+        document.body.style.backgroundImage = "url('" + savedBackgroundUrl + "')";
+    }
+});
+
+// Fungsi untuk menyimpan URL gambar di local storage
+function saveBackgroundUrlToLocalStorage(url) {
+    localStorage.setItem('backgroundUrl', url);
+}
+
+// Fungsi untuk mengambil URL gambar dari local storage
+function getBackgroundUrlFromLocalStorage() {
+    return localStorage.getItem('backgroundUrl');
+}
+
+
+
+
 
 var bookmarks = [];
 
