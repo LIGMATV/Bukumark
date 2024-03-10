@@ -8,10 +8,12 @@
 [![img](https://img.shields.io/badge/Favicon-9AB8F5?style=for-the-badge)](https://github.com/LIGMATV/Bukumark?tab=readme-ov-file#-favicon)
 
 #### Bookmark manager that keep you simple with beautiful UI  
-#### ⚠ Please read until end before using it. (That short)  
-
 
 </div>
+
+> [!TIP]
+> ![img](https://image.thum.io/get/width/900/crop/150/https://bukumark.vercel.app/)  
+> Latest screenshot, captured by [Thum.io](https://www.thum.io/)
 
 # Features
 
@@ -25,7 +27,7 @@ Customize your wallpaper. yeah.
 ![img](img/2_v3.png)
 
 ### 🗎 Import/Export NEEDED
-You not want your bookmarks gone yeah? So PLEASE EXPORT.
+You not want your bookmarks gone yeah? So PLEASE EXPORT!
 ![img](img/3_v3.png)
 
 # ❇ More features
@@ -39,7 +41,9 @@ An bookmark without icon is bored.
 *Using https://www.google.com/s2/favicons?domain=example.com&sz=128*
 ![img](img/5_v3.png)
 
-# [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLIGMATV%2FBukumark)
+### ⬇️ PWA
+Install Bukumark as app, powered by PWA
+![img](img/6_v3.jpg)
 
-# Open Source
-Check the source code of Bukumark [here!](https://raw.githubusercontent.com/LIGMATV/Bukumark/main/index.html)
+# ▲ Deploy your own
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLIGMATV%2FBukumark)
