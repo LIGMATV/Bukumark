@@ -135,7 +135,18 @@ h1 {
     backdrop-filter: blur(5px);
     margin-top: 15px;
     transition: 0.2s;
+    animation: fadeInDown 0.2s;
 }
+@keyframes fadeInDown {
+   0% {
+      opacity: 0;
+      transform: translateY(-20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+} 
 
 #bookmarkForm:hover, #customizeSection:hover, #importExportSection:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
