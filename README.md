@@ -1,4 +1,4 @@
-![img](img/wordmark.svg)  
+[![img](img/wordmark.svg)](https://bukumark.vercel.app/)
 
 > [!NOTE]
 > ![img](https://image.thum.io/get/width/900/crop/150/https://bukumark.vercel.app)  
