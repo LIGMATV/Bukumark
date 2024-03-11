@@ -5,14 +5,19 @@
 > *Latest screenshot, captured by [thum.io](https://www.thum.io/)*  
 > This project was inspired by [Gayathty17/browzica](https://github.com/Gayathry17/browzica)
 
+<br>
+
 https://github.com/LIGMATV/Bukumark/assets/143163098/c73a8e74-fbe1-4647-8e27-2dc8aed3ce1f
+
+> [!TIP]
+> Get rich wallpaper on [Wallpaperhub](https://www.wallpaperhub.app/)
 
 # Features
 
 1. Make bookmark (Absolutely)
 2. Customize the wallpaper
 3. Import and Export your bookmarks
-4. Autosave in local storage
+4. Bookmark and background autosave in local storage
 5. Edit name and Delete some bookmark by context menu
 6. Fancy UI
 7. Installable as PWA
