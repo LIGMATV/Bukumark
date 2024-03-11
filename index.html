@@ -219,6 +219,7 @@ span.ripple {
 }
 
 .bookmark {
+    position: relative;
     background-color: rgba(255, 255, 255, 0.4);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
@@ -229,21 +230,24 @@ span.ripple {
     border-radius: 20px;
     width: 60px;
     height: 60px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-bottom: 20px;
 }
 
 .favicon {
     width: 60px;
     height: 60px;
     border-radius: 20px;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .bookmark-text {
     color: #00000088;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 80px;
     text-shadow:  rgb(255, 255, 255) 0px 3px 8px;
 }
 
@@ -515,6 +519,8 @@ function loadBookmarksFromLocalStorage() {
 }
 
 loadBookmarksFromLocalStorage();
+
+// Made with ❤️ by LIGMATV
 
     </script>
 
