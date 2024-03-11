@@ -7,7 +7,7 @@
 
 <br>
 
-https://github.com/LIGMATV/Bukumark/assets/143163098/c73a8e74-fbe1-4647-8e27-2dc8aed3ce1f
+https://github.com/LIGMATV/Bukumark/assets/143163098/ae487aaa-4d3f-468e-b2dd-78cae0e5f4a3
 
 > [!TIP]
 > Get rich wallpaper on [Wallpaperhub](https://www.wallpaperhub.app/)
