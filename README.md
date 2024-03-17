@@ -5,8 +5,6 @@
 > *Latest screenshot, captured by [thum.io](https://www.thum.io/)*  
 > This project was inspired by [Gayathty17/browzica](https://github.com/Gayathry17/browzica)
 
-<br>
-
 # Demo
 
 https://github.com/LIGMATV/Bukumark/assets/143163098/ae487aaa-4d3f-468e-b2dd-78cae0e5f4a3
