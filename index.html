@@ -97,6 +97,7 @@ html { line-height: 1.15; -webkit-text-size-adjust: 100%; } body { margin: 0; } 
 
     
     <div id="contextMenu">
+        <div id="copyLink">Copy Link</div>
         <div id="editBookmark">Edit</div>
         <div id="deleteBookmark">Delete</div>
     </div>
@@ -124,6 +125,11 @@ h1 {
     color: #fff;
     font-size: 35px;
     font-weight: 900;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
 }
 
 #bookmarkForm, #customizeSection, #importExportSection {
@@ -266,20 +272,19 @@ a:visited {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     border: 1px solid #ccc;
-    border-radius: 20px;
+    border-radius: 16px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 5px;
     z-index: 1000;
+    overflow: hidden;
 }
 
 #contextMenu div {
-    cursor: pointer;
-    padding: 8px;
+    padding: 10px;
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
+#contextMenu div:hover {
+    background-color: rgba(142, 142, 142, 0.4);
+    cursor: pointer;
 }
 
     </style>
@@ -414,6 +419,20 @@ function setupContextMenu(index, x, y) {
         saveBookmarksToLocalStorage();
     });
     contextMenu.appendChild(deleteOption);
+
+    var copyLinkOption = document.createElement('div');
+copyLinkOption.textContent = 'Copy Link';
+copyLinkOption.addEventListener('click', function() {
+    var tempInput = document.createElement('input');
+    tempInput.value = bookmarks[index].url;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempInput);
+    hideContextMenu();
+});
+contextMenu.appendChild(copyLinkOption);
+
 
     window.addEventListener('click', function hideContextMenuOnOutsideClick(event) {
         if (!contextMenu.contains(event.target)) {
