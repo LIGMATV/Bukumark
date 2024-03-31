@@ -97,9 +97,9 @@ html { line-height: 1.15; -webkit-text-size-adjust: 100%; } body { margin: 0; } 
 
     
     <div id="contextMenu">
-        <div id="copyLink">Copy Link</div>
         <div id="editBookmark">Edit</div>
         <div id="deleteBookmark">Delete</div>
+        <div id="copyLink">Copy Link</div>
     </div>
 
     <style>
@@ -194,7 +194,7 @@ h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 4px;
     cursor: pointer;
     transition: 0.2s;
     font-weight: 700;
@@ -271,11 +271,6 @@ a:visited {
 .logo {
     margin-right: 5px;
     transition: 0.1s;
-    animation: mymove 2s;
-}
-
-@keyframes mymove {
-  100% {transform: rotate(360deg);}
 }
 
 .logo:hover {
@@ -430,7 +425,6 @@ function setupContextMenu(index, x, y) {
     var deleteOption = document.createElement('div');
 deleteOption.textContent = 'Delete';
 deleteOption.addEventListener('click', function() {
-    // Konfirmasi sebelum menghapus bookmark
     var confirmDelete = confirm("🅱️ Delete this bookmark?!");
     if (confirmDelete) {
         bookmarks.splice(index, 1);
@@ -515,7 +509,6 @@ function importBookmarks() {
 function createRipple(event) {
     const button = event.currentTarget;
 
-    // Mendapatkan koordinat relatif mouse dalam tombol
     const rect = button.getBoundingClientRect();
     const offsetX = event.clientX - rect.left;
     const offsetY = event.clientY - rect.top;
@@ -524,7 +517,6 @@ function createRipple(event) {
     const diameter = Math.max(button.clientWidth, button.clientHeight);
     const radius = diameter / 2;
 
-    // Menetapkan posisi lingkaran berdasarkan koordinat relatif mouse
     circle.style.width = circle.style.height = `${diameter}px`;
     circle.style.left = `${offsetX - radius}px`;
     circle.style.top = `${offsetY - radius}px`;
@@ -559,9 +551,9 @@ function loadBookmarksFromLocalStorage() {
     }
 }
 
-loadBookmarksFromLocalStorage();
+document.addEventListener('contextmenu', event => event.preventDefault());
 
-// Made with ❤️ by LIGMATV
+loadBookmarksFromLocalStorage();
 
     </script>
 
