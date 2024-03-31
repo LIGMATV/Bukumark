@@ -1,9 +1,4 @@
-[![img](img/wordmark.svg)](https://bukumark.vercel.app/)
-
-> [!NOTE]
-> ![img](https://image.thum.io/get/width/900/crop/150/https://bukumark.vercel.app)  
-> *Latest screenshot, captured by [thum.io](https://www.thum.io/)*  
-> This project was inspired by [Gayathty17/browzica](https://github.com/Gayathry17/browzica)
+[![img](wordmark.svg)](https://bukumark.vercel.app/)
 
 <br>
 
