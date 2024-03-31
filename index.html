@@ -400,7 +400,7 @@ function setupContextMenu(index, x, y) {
     var editOption = document.createElement('div');
     editOption.textContent = 'Edit';
     editOption.addEventListener('click', function() {
-        var newName = prompt('Edit bookmark name:', bookmarks[index].name);
+        var newName = prompt('🅱️ Edit bookmark name', bookmarks[index].name);
         if (newName !== null) {
             bookmarks[index].name = newName;
             renderBookmarks();
@@ -411,14 +411,19 @@ function setupContextMenu(index, x, y) {
     contextMenu.appendChild(editOption);
 
     var deleteOption = document.createElement('div');
-    deleteOption.textContent = 'Delete';
-    deleteOption.addEventListener('click', function() {
+deleteOption.textContent = 'Delete';
+deleteOption.addEventListener('click', function() {
+    // Konfirmasi sebelum menghapus bookmark
+    var confirmDelete = confirm("🅱️ Delete this bookmark?!");
+    if (confirmDelete) {
         bookmarks.splice(index, 1);
         renderBookmarks();
         hideContextMenu();
         saveBookmarksToLocalStorage();
-    });
-    contextMenu.appendChild(deleteOption);
+    }
+});
+contextMenu.appendChild(deleteOption);
+
 
     var copyLinkOption = document.createElement('div');
 copyLinkOption.textContent = 'Copy Link';
