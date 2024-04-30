@@ -11,7 +11,7 @@
 
 # 🅱️ Demo
 
-https://github.com/LIGMATV/Bukumark/assets/143163098/ae487aaa-4d3f-468e-b2dd-78cae0e5f4a3
+Try now on **[bukumark.vercel.app](https://bukumark.vercel.app/)** [![](https://vercelbadge.vercel.app/api/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/deployments/Production) 😎 or **[deploy it for yourself!](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLIGMATV%2FBukumark)**
 
 > [!TIP]
 > Get rich wallpaper on [Wallpaperhub](https://www.wallpaperhub.app/)
@@ -28,6 +28,6 @@ https://github.com/LIGMATV/Bukumark/assets/143163098/ae487aaa-4d3f-468e-b2dd-78c
 8. Without dependencies or framework
 9. All code just in one index.html ✨
 
-# ▲ Deploy your own
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLIGMATV%2FBukumark)
-
+# Footer
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLIGMATV%2FBukumark)  
+See [CHANGELOG](https://github.com/LIGMATV/Bukumark/blob/main/CHANGELOG.md) for check updated changes.
