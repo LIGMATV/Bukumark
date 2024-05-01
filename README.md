@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[<img src="logo.svg" width="100">](https://bukumark.vercel.app/)  
-[![img](wordmark.svg)](https://bukumark.vercel.app/)
+[<img src="logo.svg" width="100">](https://bukumark.now.sh/)  
+[![img](wordmark.svg)](https://bukumark.now.sh/)
 
 <a href="https://www.producthunt.com/posts/bukumark?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-bukumark" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=445167&theme=light" alt="Bukumark - Bookmark&#0032;manager&#0032;that&#0032;keep&#0032;you&#0032;simple&#0032;with&#0032;beautiful&#0032;UI | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
@@ -11,7 +11,7 @@
 
 # 🅱️ Demo
 
-Try now on **[bukumark.vercel.app](https://bukumark.vercel.app/)** [![](https://vercelbadge.vercel.app/api/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/deployments/Production) 😎 or **[deploy it for yourself!](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLIGMATV%2FBukumark)**
+Try now on **[bukumark.vercel.app](https://bukumark.now.sh/)** [![](https://vercelbadge.vercel.app/api/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/deployments/Production) 😎 or **[deploy it for yourself!](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLIGMATV%2FBukumark)**
 
 > [!TIP]
 > Get rich wallpaper on [Wallpaperhub](https://www.wallpaperhub.app/)
