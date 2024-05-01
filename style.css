@@ -113,17 +113,16 @@ h1 {
 
 .buttons button:first-of-type {
   border-radius: 8px 0 0 8px;
-  border-right: 1px solid #ffffff45;
 }
 
 .buttons button:last-of-type {
   border-radius: 0 8px 8px 0;
-  border-left: 1px solid #ffffff45;
 }
 
 .buttons button {
   border-radius: 0;
   float: left;
+  margin: 0.5px;
 }
 
 .bookmark-container {
