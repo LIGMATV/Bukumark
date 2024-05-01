@@ -11,7 +11,7 @@
 
 # 🅱️ Demo
 
-Try now on **[bukumark.vercel.app](https://bukumark.now.sh/)** [![](https://vercelbadge.vercel.app/api/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/deployments/Production) 😎 or **[deploy it for yourself!](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLIGMATV%2FBukumark)**
+Try now on **[bukumark.now.sh](https://bukumark.now.sh/)** [![](https://vercelbadge.vercel.app/api/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/deployments/Production) 😎 or **[deploy it for yourself!](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLIGMATV%2FBukumark)**
 
 > [!TIP]
 > Get rich wallpaper on [Wallpaperhub](https://www.wallpaperhub.app/)
