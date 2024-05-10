@@ -2,14 +2,14 @@
 
 <div align="center">
 
-[<img src="https://bukumark.vercel.app/logo.svg" width="100">](https://bukumark.now.sh/)  
-[![img](https://bukumark.vercel.app/wordmark.svg)](https://bukumark.now.sh/)
+[<img src="https://cdn.jsdelivr.net/gh/LIGMATV/Bukumark@gh-pages/logo.svg" width="100">](https://bukumark.is-a.dev/)  
+[![img](https://cdn.jsdelivr.net/gh/LIGMATV/Bukumark@gh-pages/wordmark.svg)](https://bukumark.is-a.dev/)
 
 </div>
 
 ## 🅱️ Demo
 
-Try now on **[bukumark.now.sh](https://bukumark.now.sh/)** [![](https://vercelbadge.vercel.app/api/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/deployments/Production) 😎 or **[fork it for yourself!](https://github.com/LIGMATV/Bukumark/fork)**
+Try now on **[bukumark.is-a.dev](https://bukumark.is-a.dev/)** [![](https://vercelbadge.vercel.app/api/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/deployments/Production) 😎 or **[fork it for yourself!](https://github.com/LIGMATV/Bukumark/fork)**
 
 > [!TIP]
 > Get rich wallpaper on [Wallpaperhub](https://www.wallpaperhub.app/)
