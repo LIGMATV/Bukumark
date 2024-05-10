@@ -9,7 +9,7 @@
 
 ## 🅱️ Demo
 
-Try now on **[bukumark.is-a.dev](https://bukumark.is-a.dev/)** [![](https://vercelbadge.vercel.app/api/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/deployments/Production) 😎 or **[fork it for yourself!](https://github.com/LIGMATV/Bukumark/fork)**
+Try now on **[bukumark.is-a.dev](https://bukumark.is-a.dev/)** [![pages-build-deployment](https://github.com/LIGMATV/Bukumark/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/LIGMATV/Bukumark/actions/workflows/pages/pages-build-deployment) 😎 or **[fork it for yourself!](https://github.com/LIGMATV/Bukumark/fork)**
 
 > [!TIP]
 > Get rich wallpaper on [Wallpaperhub](https://www.wallpaperhub.app/)
