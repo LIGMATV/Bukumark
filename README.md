@@ -7,14 +7,14 @@
 
 </div>
 
-# 🅱️ Demo
+## 🅱️ Demo
 
 Try now on **[bukumark.now.sh](https://bukumark.now.sh/)** [![](https://vercelbadge.vercel.app/api/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/deployments/Production) 😎 or **[fork it for yourself!](https://github.com/LIGMATV/Bukumark/fork)**
 
 > [!TIP]
 > Get rich wallpaper on [Wallpaperhub](https://www.wallpaperhub.app/)
 
-# 🅱️ Features
+## 🅱️ Features
 
 - Make bookmark (Absolutely).
 - Customize the wallpaper.
@@ -25,7 +25,7 @@ Try now on **[bukumark.now.sh](https://bukumark.now.sh/)** [![](https://vercelba
 - Installable as PWA on supported browsers.
 - Without dependencies or framework.
 
-# License
+## License
 
 [MIT](/LICENSE)
 
