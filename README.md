@@ -2,14 +2,14 @@
 
 <div align="center">
 
-[<img src="https://cdn.jsdelivr.net/gh/LIGMATV/Bukumark@gh-pages/logo.svg" width="100">](https://bukumark.is-a.dev/)  
-[![img](https://cdn.jsdelivr.net/gh/LIGMATV/Bukumark@gh-pages/wordmark.svg)](https://bukumark.is-a.dev/)
+[<img src="https://cdn.jsdelivr.net/gh/LIGMATV/Bukumark@gh-pages/logo.svg" width="100">](https://ligmatv.is-a.dev/Bukumark/)  
+[![img](https://cdn.jsdelivr.net/gh/LIGMATV/Bukumark@gh-pages/wordmark.svg)](https://ligmatv.is-a.dev/Bukumark/)
 
 </div>
 
 ## 🅱️ Demo
 
-Try now on **[bukumark.is-a.dev](https://bukumark.is-a.dev/)** [![pages-build-deployment](https://github.com/LIGMATV/Bukumark/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/LIGMATV/Bukumark/actions/workflows/pages/pages-build-deployment) 😎 or **[fork it for yourself!](https://github.com/LIGMATV/Bukumark/fork)**
+Try now on **[ligmatv.is-a.dev/Bukumark](https://ligmatv.is-a.dev/Bukumark/)** [![pages-build-deployment](https://github.com/LIGMATV/Bukumark/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/LIGMATV/Bukumark/actions/workflows/pages/pages-build-deployment) 😎 or **[fork it for yourself!](https://github.com/LIGMATV/Bukumark/fork)**
 
 > [!TIP]
 > Get rich wallpaper on [Wallpaperhub](https://www.wallpaperhub.app/)
