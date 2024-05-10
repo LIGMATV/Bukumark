@@ -11,7 +11,7 @@
 
 # 🅱️ Demo
 
-Try now on **[bukumark.now.sh](https://bukumark.now.sh/)** [![](https://vercelbadge.vercel.app/api/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/deployments/Production) 😎 or **[deploy it for yourself!](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLIGMATV%2FBukumark)**
+Try now on **[bukumark.now.sh](https://bukumark.now.sh/)** [![](https://vercelbadge.vercel.app/api/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/deployments/Production) 😎 or **[fork it for yourself!](https://github.com/LIGMATV/Bukumark/fork)**
 
 > [!TIP]
 > Get rich wallpaper on [Wallpaperhub](https://www.wallpaperhub.app/)
@@ -28,6 +28,7 @@ Try now on **[bukumark.now.sh](https://bukumark.now.sh/)** [![](https://vercelba
 8. Without dependencies or framework
 9. All code just in one index.html ✨
 
-# Footer
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLIGMATV%2FBukumark)  
-See [CHANGELOG](https://github.com/LIGMATV/Bukumark/blob/main/CHANGELOG.md) for check updated changes.
+# Badges
+![GitHub forks](https://img.shields.io/github/forks/LIGMATV/Bukumark) 
+![GitHub repo size](https://img.shields.io/github/repo-size/LIGMATV/Bukumark?color=8C6984)
+![Static Badge](https://img.shields.io/badge/CHANGELOG-8C6984)
