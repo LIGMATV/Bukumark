@@ -29,6 +29,6 @@ Try now on **[bukumark.now.sh](https://bukumark.now.sh/)** [![](https://vercelba
 9. All code just in one index.html ✨
 
 # Badges
-![GitHub forks](https://img.shields.io/github/forks/LIGMATV/Bukumark) 
+[![GitHub forks](https://img.shields.io/github/forks/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/fork)
 ![GitHub repo size](https://img.shields.io/github/repo-size/LIGMATV/Bukumark?color=8C6984)
-![Static Badge](https://img.shields.io/badge/CHANGELOG-8C6984)
+[![Static Badge](https://img.shields.io/badge/CHANGELOG-8C6984)](https://github.com/LIGMATV/Bukumark/blob/gh-pages/CHANGELOG.md)
