@@ -34,3 +34,5 @@ Try now on **[bukumark.js.org](https://bukumark.js.org/)** [![pages-build-deploy
 [![GitHub forks](https://img.shields.io/github/forks/LIGMATV/Bukumark)](https://github.com/LIGMATV/Bukumark/fork)
 ![GitHub repo size](https://img.shields.io/github/repo-size/LIGMATV/Bukumark?color=8C6984)
 [![Static Badge](https://img.shields.io/badge/CHANGELOG-8C6984)](https://github.com/LIGMATV/Bukumark/blob/gh-pages/CHANGELOG.md)
+
+*Domain powered by [<img src="https://raw.githubusercontent.com/js-org/logo/gh-pages/dark_tiny.png" width="50">](https://js.org/)*
