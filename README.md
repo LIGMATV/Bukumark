@@ -1,3 +1,7 @@
+> ## Status [![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
+> I remember when the first time i make this project, at that time i still amateur... ChatGPT™ who made the framework, but now i have started to understand many things. In soon, i will make new project with this concept with my own code from scratch. So cause i bored (And because no one also interested) to continue this project, i will archiving this repository.
+---
+
 [![StandWithPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/StandWithPalestine.svg)](https://techforpalestine.org/learn-more)
 
 <div align="center">
